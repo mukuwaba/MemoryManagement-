@@ -2,6 +2,7 @@
 // Write, Edit and Run your C# code using C# Online Compiler
 
 using System;
+using static System.Console;
 
 public class MemoryManagement{
     public static void Main(string[] args){
@@ -63,9 +64,18 @@ public class MemoryManagement{
             caseOutcome = 7;
     }//End: if
     
-switch(caseOutcome) {
-    case: 
-        WriteLine(" ")
+
+switch(caseOutcome){
+    case 0: 
+        Console.WriteLine(Binary_0+"")
+    break;
+    
+    case 1: 
+        Console.WriteLine(Binary_1+"")
+    break;
+    
+    case 2: 
+        Console.WriteLine(Binary_2+"")
     break;
 
 
